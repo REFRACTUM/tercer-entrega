@@ -1,0 +1,63 @@
+.about {
+    text-align: center;
+    margin: auto;
+    background-color: $color-blanco;
+    position: relative;
+  }
+  
+  .about-txt {
+    margin-bottom: 100px;
+  
+    h2 {
+      color: $color-violeta;
+      font-size: 40px;
+    }
+  }
+  
+  hr {
+    color: $color-violeta;
+    width: 200px;
+    align-items: center;
+    border: 1px solid;
+    margin: auto;
+  }
+  
+  .about-content {
+    margin: auto;
+  }
+  
+  .primary btn btn-outline-primary {
+    color: $color-violeta;
+  }
+  
+  .card-body {
+    background-color: rgba(247, 0, 255, 0.363);
+    position: relative;
+  }
+  
+  p {
+    text-align: left;
+  
+    img {
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+  }
+  
+  .card {
+    box-sizing: 1px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 76px -20px rgba(204, 0, 255, 0.54);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .card-img {
+    width: 300px;
+    height: 300px;
+  }
+  

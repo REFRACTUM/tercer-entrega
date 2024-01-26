@@ -1,0 +1,63 @@
+@mixin background {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: linear-gradient(rgba(71, 42, 64, 0.8), rgba(73, 63, 73, 0.671)), url(../imagenes/buenosairesfondo1.png.jpeg);
+    @include background;
+  }
+  
+  .header-txt {
+    padding: 0 150px;
+    margin: auto;
+    margin-top: 200px;
+    max-width: 1200px;
+  
+    h1 {
+      font-size: 60px;
+      line-height: 1;
+      color: $color-blanco;
+      font-family: 'Bebas Neue', sans-serif;
+    }
+  
+    P {
+      font-size: 20px;
+      color: $color-blanco;
+      text-align: left;
+    }
+  }
+  
+  .navbar img {
+    width: 250px;
+  }
+  
+  .offcanvas a {
+    color: $color-violeta;
+  }
+  
+  .btn {
+    border-radius: 100px;
+    border: 4px solid;
+    color: $color-violeta;
+    background-color: rgba(255, 0, 242, 0.39);
+  
+    a {
+      color: $color-blanco;
+      text-decoration: none;
+    }
+  }
+  
+  .offcanvas img {
+    height: 80px;
+    width: 350px;
+  }
+  

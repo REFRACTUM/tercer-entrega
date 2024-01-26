@@ -1,0 +1,222 @@
+@mixin background {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonial {
+    padding: 0px 0;
+    background: linear-gradient(rgba(36, 21, 32, 0.8), rgba(37, 21, 35, 0.8)), url(../imagenes/buenosairesfondo3.png);
+    @include background;
+  }
+  
+  .testimonial-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .testimonial1 {
+    margin-top: 105px;
+    flex-basis: calc(50% - 25px);
+    padding: 20px 0;
+    text-align: left;
+  }
+  
+  .testimonial p {
+    font-size: 20px;
+    text-align: left;
+    color: $color-blanco;
+  }
+  
+  .hr2 {
+    width: 20%;
+  }
+  
+  h2 {
+    font-size: 35px;
+    color: $color-violeta;
+    margin: 15px 0;
+    line-height: 1;
+  }
+  
+  h4 {
+    color: $color-violeta;
+  }
+  
+  .testimonial1 img {
+    width: 600px;
+    height: 600px;
+    box-sizing: 1px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 76px -20px rgba(171, 74, 190, 0.54);
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .contact-form {
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    background: $color-blanco;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+  }
+  
+  .container1 {
+    max-width: 1000px;
+    margin-top: 0 auto;
+  }
+  
+  .contact-form {
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: $color-violeta;
+    }
+  
+    h3 {
+      line-height: 40px;
+      margin-bottom: 5px;
+      font-size: 30px;
+      font-weight: 500;
+      color: $color-violeta;
+      text-align: center;
+    }
+  
+    .main {
+      position: relative;
+      display: flex;
+      margin: 30px 0;
+    }
+  }
+  
+  .content {
+    flex-basis: 50%;
+    padding: 3em 3em;
+    background: white;
+    box-shadow: 2px 9px 49px -17px $color-violeta;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .form-img {
+    flex-basis: 50%;
+    background: $color-blanco;
+    background-size: cover;
+    padding: 0px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    display: grid;
+  }
+  
+  .imagencontacto {
+    width: 600px;
+    height: 600px;
+    max-width: 100%;
+  }
+  
+  .btn, button, input {
+    border-radius: 35px;
+  }
+  
+  .contact-form {
+    form {
+      margin: 30px 0;
+    }
+  
+    input {
+      outline: none;
+      margin-bottom: 20px;
+      font-stretch: 16px;
+      color: rgb(0, 0, 0);
+      padding: 14px 20px;
+      width: 100%;
+      display: inline-block;
+      box-sizing: border-box;
+      border: none;
+      background: rgba(225, 0, 255, 0.281);
+      transition: 0.3s ease;
+    }
+  }
+  
+  textarea {
+    outline: none;
+    margin-bottom: 20px;
+    font-stretch: 16px;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: rgba(225, 0, 255, 0.281);
+    transition: 0.3s ease;
+  }
+  
+  .contact-form {
+    button {
+      font-size: 18px;
+      width: 100%;
+      font-weight: 600;
+      transition: 0.3s;
+      padding: 14px 15px;
+      margin-top: 50px;
+    }
+  
+    input:focus {
+      background: transparent;
+      border: 1px solid rgba(225, 0, 255, 0.281);
+    }
+  
+    button {
+      font-size: 18px;
+      color: white;
+      width: 100%;
+      font-weight: 600;
+      transition: 0.3 ease;
+      padding: 14px 15px;
+      border: 1px solid rgba(225, 0, 255, 0.281);
+    }
+  }
+  
+  .contact1 {
+    padding: 100px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/buenosairesfondo2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .contact1-content {
+    text-align: center;
+  }
+  
+  .contact1 {
+    span {
+      color: $color-violeta;
+    }
+  
+    h2 {
+      color: $color-blanco;
+    }
+  
+    p {
+      font-size: 24px;
+      text-align: center;
+      color: $color-blanco;
+    }
+  }
+  
+  .contactoimg1 {
+    width: 50px;
+    height: 50px;
+  }
+  

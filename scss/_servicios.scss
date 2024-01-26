@@ -1,0 +1,27 @@
+.grid {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: $color-blanco;
+  
+    h5 {
+      margin-bottom: 20px;
+      color: $color-violeta;
+    }
+  
+    h2 {
+      color: black;
+  
+      hr {
+        width: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: $color-violeta;
+      }
+    }
+  }
+  
+  .servi {
+    width: 75px;
+    height: 75px;
+  }
+  
