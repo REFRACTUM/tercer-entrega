@@ -21,6 +21,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  min-height: 80vh;
 }
 
 .header-txt {
@@ -63,6 +64,43 @@ header {
 .offcanvas img {
   height: 80px;
   width: 350px;
+}
+
+@keyframes cardshow {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+.card img {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: cardshow;
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
+}
+
+.imagencontacto {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: cardshow;
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
+}
+
+.testimonial1 img {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: cardshow;
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
 }
 
 .about {
@@ -127,13 +165,14 @@ p img {
 }
 
 .grid {
+  text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
   background-color: white;
 }
 .grid h5 {
   margin-bottom: 20px;
-  color: rgb(243, 23, 243);
+  color: rgb(247, 0, 255);
 }
 .grid h2 {
   color: black;
@@ -142,12 +181,15 @@ p img {
   width: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: rgb(243, 23, 243);
+  color: rgb(247, 0, 255);
+}
+.grid p {
+  text-align: center;
 }
 
 .servi {
-  width: 75px;
-  height: 75px;
+  width: 150px;
+  height: 150px;
 }
 
 footer {
@@ -167,7 +209,7 @@ footer {
   text-decoration: none;
   padding: 10px;
   background-color: rgb(243, 23, 243);
-  margin: 10px;
+  margin: 15px;
   border-radius: 50%;
 }
 .socialIcons a i {
@@ -184,9 +226,6 @@ footer {
   transition: 0.5s;
 }
 
-.footerNav {
-  margin: 30px 0;
-}
 .footerNav ul {
   display: flex;
   justify-content: center;
@@ -194,7 +233,7 @@ footer {
 }
 .footerNav ul li a {
   color: rgb(243, 23, 243);
-  margin: 20px;
+  margin: 15px;
   text-decoration: none;
   font-size: 1.3em;
   opacity: 0.7;
@@ -228,7 +267,7 @@ footer {
 }
 
 .testimonial1 {
-  margin-top: 105px;
+  margin-top: 50px;
   flex-basis: calc(50% - 25px);
   padding: 20px 0;
   text-align: left;
@@ -238,10 +277,6 @@ footer {
   font-size: 20px;
   text-align: left;
   color: white;
-}
-
-.hr2 {
-  width: 20%;
 }
 
 h2 {
@@ -260,8 +295,8 @@ h4 {
   height: 600px;
   box-sizing: 1px;
   border: none;
-  border-radius: 20px;
-  box-shadow: 10px 10px 76px -20px rgba(171, 74, 190, 0.54);
+  border-radius: 30px;
+  box-shadow: 10px 10px 76px -20px rgba(183, 0, 219, 0.815);
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -280,7 +315,7 @@ h4 {
 
 .container1 {
   max-width: 1000px;
-  margin-top: 0 auto;
+  margin: 0 auto;
 }
 
 .contact-form h2 {
@@ -324,9 +359,11 @@ h4 {
 }
 
 .imagencontacto {
-  width: 600px;
-  height: 600px;
+  margin: auto;
+  width: 400px;
+  height: 500px;
   max-width: 100%;
+  box-shadow: 2px 9px 49px -17px rgb(243, 23, 243);
 }
 
 .btn, button, input {
@@ -338,7 +375,7 @@ h4 {
 }
 .contact-form input {
   outline: none;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-stretch: 16px;
   color: rgb(0, 0, 0);
   padding: 14px 20px;
@@ -352,7 +389,6 @@ h4 {
 
 textarea {
   outline: none;
-  margin-bottom: 20px;
   font-stretch: 16px;
   color: rgb(0, 0, 0);
   padding: 14px 20px;
@@ -370,7 +406,7 @@ textarea {
   font-weight: 600;
   transition: 0.3s;
   padding: 14px 15px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .contact-form input:focus {
   background: transparent;
@@ -421,61 +457,58 @@ textarea {
     background-color: rgba(114, 0, 108, 0.212);
     backdrop-filter: blur(20px);
   }
+  header {
+    background-attachment: local;
+  }
   .header-txt {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
     padding: 0 80px;
+    text-align: center;
   }
   .header-txt h1 {
-    font-size: 50px;
+    font-size: 60px;
     line-height: 1;
   }
   .header-txt p {
-    font-size: 15px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .testimonial {
+    background-attachment: local;
   }
   .testimonial-content {
     flex-direction: column;
   }
   .testimonial1 {
-    text-align: left;
-    margin-bottom: -100px;
-  }
-  .testimonial1 h2 {
-    font-size: 30px;
-  }
-  .testimonial1 h4 {
-    font-size: 14px;
-  }
-  .testimonial1 p {
-    text-align: left;
-    font-size: 14px;
-  }
-  .testimonial1 img {
-    width: 400px;
-    height: 400px;
-    margin-bottom: 100px;
-    margin-left: 100px;
-  }
-  .grid h3 {
-    font-size: 16px;
-  }
-  .grid hr {
-    width: 50px;
-  }
-  .grid p {
-    font-size: 12px;
     text-align: center;
   }
+  .testimonial1 h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .testimonial1 h4 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .testimonial1 p {
+    text-align: center;
+    font-size: 18px;
+  }
+  .testimonial1 img {
+    margin-top: -80px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+  }
+  .grid {
+    flex-direction: column;
+  }
   .servi {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
   }
   .contact-form .main {
     flex-direction: column;
-  }
-  .contact-form img {
-    margin-top: 30px;
-    margin-bottom: 10px;
   }
   .form-img {
     border-radius: 0;
@@ -483,10 +516,16 @@ textarea {
     border-bottom-right-radius: 8px;
     order: 2;
   }
+  .form-img img {
+    text-align: center;
+  }
   .content {
     order: 1;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+  }
+  .footerNav ul li a {
+    margin-left: -30px;
   }
   .footerNav ul {
     flex-direction: column;
@@ -495,6 +534,87 @@ textarea {
     width: 100%;
     text-align: center;
     margin: 10px;
+  }
+  .container1 {
+    max-width: 600px;
+  }
+  .imagencontacto {
+    margin-top: -30px;
+  }
+  .contact1 {
+    background-attachment: local;
+  }
+  .about {
+    max-width: 900px;
+  }
+}
+@media (max-width: 767px) {
+  .header-txt h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .header-txt p {
+    font-size: 16px;
+  }
+  .testimonial-content {
+    flex-direction: column;
+  }
+  .testimonial1 h2 {
+    font-size: 30px;
+  }
+  .testimonial1 h4 {
+    font-size: 14px;
+  }
+  .testimonial1 p {
+    font-size: 14px;
+  }
+  .testimonial1 img {
+    width: 400px;
+    height: 400px;
+  }
+  .grid {
+    flex-direction: column;
+  }
+  .grid h3 {
+    font-size: 30px;
+  }
+  .grid hr {
+    width: 200px;
+  }
+  .grid p {
+    text-align: center;
+    font-size: 20px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 75px;
+  }
+  .servi {
+    width: 200px;
+    height: 200px;
+  }
+  .contact-form .main {
+    flex-direction: column;
+  }
+  .footerNav ul li a {
+    margin-left: -30px;
+  }
+  .footerNav ul {
+    flex-direction: column;
+  }
+  .footerNav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+  .container1 {
+    max-width: 400px;
+  }
+  .imagencontacto {
+    width: 300px;
+    height: 400px;
+  }
+  .about {
+    max-width: 480px;
   }
 }
 @media (max-width: 500px) {
@@ -507,11 +627,11 @@ textarea {
     padding: 0 60px;
   }
   .header-txt h1 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1;
   }
   .header-txt p {
-    font-size: 13px;
+    font-size: 15px;
   }
   .testimonial1 h2 {
     font-size: 30px;
@@ -520,20 +640,40 @@ textarea {
     font-size: 14px;
   }
   .testimonial1 p {
-    text-align: left;
     font-size: 14px;
   }
   .testimonial1 img {
+    width: 320px;
+    height: 320px;
+  }
+  .grid h3 {
+    font-size: 24px;
+  }
+  .grid p {
+    text-align: center;
+    font-size: 16px;
     width: 300px;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+  .servi {
+    width: 100px;
+    height: 100px;
+  }
+  .container1 {
+    max-width: 280px;
+  }
+  .imagencontacto {
+    width: 200px;
     height: 300px;
-    margin-bottom: 90px;
-    margin-left: 75px;
+  }
+  .about {
+    max-width: 300px;
   }
 }
 @media (max-width: 380px) {
   .header-txt {
     margin-top: 30px;
-    margin-bottom: 40px;
     padding: 0 40px;
   }
   .header-txt h1 {
@@ -541,20 +681,27 @@ textarea {
     line-height: 1;
   }
   .header-txt p {
-    font-size: 13px;
+    font-size: 14px;
   }
   .testimonial1 img {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 90px;
-    margin-left: 45px;
+    width: 280px;
+    height: 280px;
   }
   .grid h3 {
-    font-size: 12px;
+    font-size: 20px;
+  }
+  .grid hr {
+    width: 100px;
   }
   .grid p {
-    font-size: 10px;
-    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+  .servi {
+    width: 100px;
+    height: 100px;
   }
 }
 

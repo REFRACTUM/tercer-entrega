@@ -5,6 +5,7 @@
     background-attachment: fixed;
 }
 
+
 .testimonial {
     padding: 0px 0;
     background: linear-gradient(rgba(36, 21, 32, 0.8), rgba(37, 21, 35, 0.8)), url(../imagenes/buenosairesfondo3.png);
@@ -17,7 +18,7 @@
   }
   
   .testimonial1 {
-    margin-top: 105px;
+    margin-top: 50px;
     flex-basis: calc(50% - 25px);
     padding: 20px 0;
     text-align: left;
@@ -29,9 +30,6 @@
     color: $color-blanco;
   }
   
-  .hr2 {
-    width: 20%;
-  }
   
   h2 {
     font-size: 35px;
@@ -49,8 +47,8 @@
     height: 600px;
     box-sizing: 1px;
     border: none;
-    border-radius: 20px;
-    box-shadow: 10px 10px 76px -20px rgba(171, 74, 190, 0.54);
+    border-radius: 30px;
+    box-shadow: 10px 10px 76px -20px rgba(183, 0, 219, 0.815);
     margin-right: 10px;
     margin-left: 10px;
   }
@@ -69,7 +67,7 @@
   
   .container1 {
     max-width: 1000px;
-    margin-top: 0 auto;
+    margin: 0 auto;
   }
   
   .contact-form {
@@ -115,12 +113,15 @@
     align-items: center;
     display: grid;
   }
-  
+
   .imagencontacto {
-    width: 600px;
-    height: 600px;
+    margin: auto;
+    width: 400px;
+    height: 500px;
     max-width: 100%;
-  }
+    box-shadow: 2px 9px 49px -17px $color-violeta;
+    }
+
   
   .btn, button, input {
     border-radius: 35px;
@@ -133,7 +134,7 @@
   
     input {
       outline: none;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       font-stretch: 16px;
       color: rgb(0, 0, 0);
       padding: 14px 20px;
@@ -148,7 +149,6 @@
   
   textarea {
     outline: none;
-    margin-bottom: 20px;
     font-stretch: 16px;
     color: rgb(0, 0, 0);
     padding: 14px 20px;
@@ -167,7 +167,7 @@
       font-weight: 600;
       transition: 0.3s;
       padding: 14px 15px;
-      margin-top: 50px;
+      margin-top: 30px;
     }
   
     input:focus {

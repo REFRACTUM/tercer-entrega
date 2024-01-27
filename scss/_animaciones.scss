@@ -1,0 +1,44 @@
+@keyframes cardshow {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.card img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: cardshow;
+    
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+
+.imagencontacto {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: cardshow;
+    
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
+
+.testimonial1 img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: cardshow;
+    
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+}
