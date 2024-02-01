@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 
@@ -13,7 +13,7 @@
   }
   
   header {
-    background: linear-gradient(rgba(71, 42, 64, 0.8), rgba(73, 63, 73, 0.671)), url(../imagenes/buenosairesfondo1.png.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(49, 49, 49, 0.671)), url(../imagenes/buenosairesfondo1.png.jpeg);
     @include background;
 
   }
@@ -51,7 +51,7 @@
     border-radius: 100px;
     border: 4px solid;
     color: $color-violeta;
-    background-color: rgba(255, 0, 242, 0.39);
+    background-color: #da3dda88;
   
     a {
       color: $color-blanco;
@@ -63,4 +63,3 @@
     height: 80px;
     width: 350px;
   }
-  

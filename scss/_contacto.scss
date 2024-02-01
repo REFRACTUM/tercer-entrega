@@ -1,14 +1,7 @@
-@mixin background {
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 
 .testimonial {
     padding: 0px 0;
-    background: linear-gradient(rgba(36, 21, 32, 0.8), rgba(37, 21, 35, 0.8)), url(../imagenes/buenosairesfondo3.png);
+    background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/buenosairesfondo3.png);
     @include background;
   }
   
@@ -48,10 +41,18 @@
     box-sizing: 1px;
     border: none;
     border-radius: 30px;
-    box-shadow: 10px 10px 76px -20px rgba(183, 0, 219, 0.815);
-    margin-right: 10px;
-    margin-left: 10px;
-  }
+    box-shadow: 10px 10px 76px -20px rgba(255, 0, 179, 0.815);
+   }
+
+  .testimonial2 img {
+    margin-top: 150px;
+    width: 90%;
+    height: 600px;
+    box-sizing: 1px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px 76px -20px rgba(255, 0, 179, 0.815);
+   }
   
   .contact-form {
     position: relative;
@@ -218,5 +219,24 @@
   .contactoimg1 {
     width: 50px;
     height: 50px;
+    margin-right:20px ;
   }
+
+  .btn-wsp img{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+   }
+
+   .btn-wsp img:hover{
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 1px 50px rgb(7, 7, 7);
+    transform: translateY(-3%);
+   }
   

@@ -16,29 +16,30 @@
 }
 
 header {
-  background: linear-gradient(rgba(71, 42, 64, 0.8), rgba(73, 63, 73, 0.671)), url(../imagenes/buenosairesfondo1.png.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(49, 49, 49, 0.671)), url(../imagenes/buenosairesfondo1.png.jpeg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 80vh;
+  min-height: 70vh;
 }
 
 .header-txt {
   padding: 0 150px;
   margin: auto;
+  margin-bottom: 100px;
   margin-top: 200px;
   max-width: 1200px;
 }
 .header-txt h1 {
   font-size: 60px;
   line-height: 1;
-  color: white;
+  color: #ffffff;
   font-family: "Bebas Neue", sans-serif;
 }
 .header-txt P {
   font-size: 20px;
-  color: white;
+  color: #ffffff;
   text-align: left;
 }
 
@@ -47,23 +48,101 @@ header {
 }
 
 .offcanvas a {
-  color: rgb(243, 23, 243);
+  color: #ff70cf;
 }
 
 .btn {
   border-radius: 100px;
   border: 4px solid;
-  color: rgb(243, 23, 243);
-  background-color: rgba(255, 0, 242, 0.39);
+  color: #ff70cf;
+  background-color: rgba(218, 61, 218, 0.5333333333);
 }
 .btn a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .offcanvas img {
   height: 80px;
   width: 350px;
+}
+
+.header1 {
+  padding: 0px 0;
+  background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/buenosairesfondo4.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 70vh;
+}
+
+.header2 {
+  padding: 0px 0;
+  background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/buenosairesfondo5.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 70vh;
+}
+
+.header-txt2 {
+  padding: 0 150px;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 150px;
+  max-width: 1200px;
+}
+.header-txt2 h1 {
+  font-size: 60px;
+  line-height: 1;
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
+}
+.header-txt2 P {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.header3 {
+  padding: 0px 0;
+  background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/fondoservicios.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 70vh;
+}
+
+.header-txt3 {
+  padding: 0 150px;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  max-width: 1200px;
+}
+.header-txt3 h1 {
+  font-size: 60px;
+  line-height: 1;
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
+}
+.header-txt3 P {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.header4 {
+  padding: 0px 0;
+  background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/fondocontacto.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 70vh;
 }
 
 @keyframes cardshow {
@@ -106,20 +185,17 @@ header {
 .about {
   text-align: center;
   margin: auto;
-  background-color: white;
+  background-color: #ffffff;
   position: relative;
 }
 
-.about-txt {
-  margin-bottom: 100px;
-}
 .about-txt h2 {
-  color: rgb(243, 23, 243);
+  color: #ff70cf;
   font-size: 40px;
 }
 
 hr {
-  color: rgb(243, 23, 243);
+  color: #ff70cf;
   width: 200px;
   align-items: center;
   border: 1px solid;
@@ -131,37 +207,45 @@ hr {
 }
 
 .primary btn btn-outline-primary {
-  color: rgb(243, 23, 243);
+  color: #ff70cf;
 }
 
 .card-body {
-  background-color: rgba(247, 0, 255, 0.363);
+  background-color: rgba(212, 103, 216, 0.3647058824);
   position: relative;
 }
 
-p {
-  text-align: left;
-}
 p img {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   margin-right: 5px;
   margin-left: 5px;
 }
 
 .card {
-  box-sizing: 1px;
-  border: none;
-  border-radius: 20px;
-  box-shadow: 10px 10px 76px -20px rgba(204, 0, 255, 0.54);
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+  cursor: default;
+  transition: all 400ms ease;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+  transform: translateY(-3%);
+}
+
+.card-text {
+  padding: 10px;
+  text-align: center;
+  text-transform: bold;
 }
 
 .card-img {
-  width: 300px;
-  height: 300px;
+  width: 40px;
+  height: 400px;
 }
 
 .grid {
@@ -208,7 +292,7 @@ footer {
 .socialIcons a {
   text-decoration: none;
   padding: 10px;
-  background-color: rgb(243, 23, 243);
+  background-color: #ff70cf;
   margin: 15px;
   border-radius: 50%;
 }
@@ -222,7 +306,7 @@ footer {
   transition: 0.5s;
 }
 .socialIcons a:hover i {
-  background-color: white;
+  background-color: #ffffff;
   transition: 0.5s;
 }
 
@@ -232,7 +316,7 @@ footer {
   list-style-type: nonedisc;
 }
 .footerNav ul li a {
-  color: rgb(243, 23, 243);
+  color: #ff70cf;
   margin: 15px;
   text-decoration: none;
   font-size: 1.3em;
@@ -248,17 +332,18 @@ footer {
   padding: 20px;
 }
 .footerBot p {
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 
 .testimonial {
   padding: 0px 0;
-  background: linear-gradient(rgba(36, 21, 32, 0.8), rgba(37, 21, 35, 0.8)), url(../imagenes/buenosairesfondo3.png);
+  background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/buenosairesfondo3.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  min-height: 70vh;
 }
 
 .testimonial-content {
@@ -276,18 +361,18 @@ footer {
 .testimonial p {
   font-size: 20px;
   text-align: left;
-  color: white;
+  color: #ffffff;
 }
 
 h2 {
   font-size: 35px;
-  color: rgb(243, 23, 243);
+  color: #ff70cf;
   margin: 15px 0;
   line-height: 1;
 }
 
 h4 {
-  color: rgb(243, 23, 243);
+  color: #ff70cf;
 }
 
 .testimonial1 img {
@@ -296,16 +381,24 @@ h4 {
   box-sizing: 1px;
   border: none;
   border-radius: 30px;
-  box-shadow: 10px 10px 76px -20px rgba(183, 0, 219, 0.815);
-  margin-right: 10px;
-  margin-left: 10px;
+  box-shadow: 10px 10px 76px -20px rgba(255, 0, 179, 0.815);
+}
+
+.testimonial2 img {
+  margin-top: 150px;
+  width: 90%;
+  height: 600px;
+  box-sizing: 1px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 10px 10px 76px -20px rgba(255, 0, 179, 0.815);
 }
 
 .contact-form {
   position: relative;
   min-height: 100vh;
   z-index: 0;
-  background: white;
+  background: #ffffff;
   padding: 30px;
   justify-content: center;
   display: grid;
@@ -322,14 +415,14 @@ h4 {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 400;
-  color: rgb(243, 23, 243);
+  color: #ff70cf;
 }
 .contact-form h3 {
   line-height: 40px;
   margin-bottom: 5px;
   font-size: 30px;
   font-weight: 500;
-  color: rgb(243, 23, 243);
+  color: #ff70cf;
   text-align: center;
 }
 .contact-form .main {
@@ -342,14 +435,14 @@ h4 {
   flex-basis: 50%;
   padding: 3em 3em;
   background: white;
-  box-shadow: 2px 9px 49px -17px rgb(243, 23, 243);
+  box-shadow: 2px 9px 49px -17px #ff70cf;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
 
 .form-img {
   flex-basis: 50%;
-  background: white;
+  background: #ffffff;
   background-size: cover;
   padding: 0px;
   border-top-right-radius: 8px;
@@ -363,7 +456,7 @@ h4 {
   width: 400px;
   height: 500px;
   max-width: 100%;
-  box-shadow: 2px 9px 49px -17px rgb(243, 23, 243);
+  box-shadow: 2px 9px 49px -17px #ff70cf;
 }
 
 .btn, button, input {
@@ -436,20 +529,39 @@ textarea {
 }
 
 .contact1 span {
-  color: rgb(243, 23, 243);
+  color: #ff70cf;
 }
 .contact1 h2 {
-  color: white;
+  color: #ffffff;
 }
 .contact1 p {
   font-size: 24px;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 .contactoimg1 {
   width: 50px;
   height: 50px;
+  margin-right: 20px;
+}
+
+.btn-wsp img {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.btn-wsp img:hover {
+  background: rgb(0, 0, 0);
+  box-shadow: 0px 1px 50px rgb(7, 7, 7);
+  transform: translateY(-3%);
 }
 
 @media (max-width: 991px) {
@@ -458,6 +570,18 @@ textarea {
     backdrop-filter: blur(20px);
   }
   header {
+    background-attachment: local;
+  }
+  .header1 {
+    background-attachment: local;
+  }
+  .header2 {
+    background-attachment: local;
+  }
+  .header3 {
+    background-attachment: local;
+  }
+  .header4 {
     background-attachment: local;
   }
   .header-txt {
@@ -472,6 +596,38 @@ textarea {
   .header-txt p {
     text-align: center;
     font-size: 20px;
+  }
+  .header-txt2 {
+    margin-top: 100px;
+    padding: 0 80px;
+    text-align: center;
+  }
+  .header-txt2 h1 {
+    font-size: 60px;
+    line-height: 1;
+  }
+  .header-txt2 p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .header-txt3 {
+    margin-top: 100px;
+    padding: 0 80px;
+    text-align: center;
+  }
+  .header-txt3 h1 {
+    font-size: 60px;
+    line-height: 1;
+  }
+  .header-txt3 p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .offcanvas-body {
+    background: rgba(0, 0, 0, 0.781);
+  }
+  .offcanvas-body a {
+    font-size: 24px;
   }
   .testimonial {
     background-attachment: local;
@@ -495,10 +651,11 @@ textarea {
     font-size: 18px;
   }
   .testimonial1 img {
-    margin-top: -80px;
+    margin-top: -100px;
     text-align: center;
     width: 500px;
     height: 500px;
+    margin: auto;
   }
   .grid {
     flex-direction: column;
@@ -547,6 +704,14 @@ textarea {
   .about {
     max-width: 900px;
   }
+  .testimonial2 img {
+    margin-top: -80px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 767px) {
   .header-txt h1 {
@@ -554,6 +719,20 @@ textarea {
     line-height: 1;
   }
   .header-txt p {
+    font-size: 16px;
+  }
+  .header-txt2 h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .header-txt2 p {
+    font-size: 16px;
+  }
+  .header-txt3 h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .header-txt3 p {
     font-size: 16px;
   }
   .testimonial-content {
@@ -569,6 +748,7 @@ textarea {
     font-size: 14px;
   }
   .testimonial1 img {
+    margin-top: -50px;
     width: 400px;
     height: 400px;
   }
@@ -616,6 +796,10 @@ textarea {
   .about {
     max-width: 480px;
   }
+  .testimonial2 img {
+    width: 90%;
+    height: 400px;
+  }
 }
 @media (max-width: 500px) {
   .navbar img {
@@ -633,6 +817,29 @@ textarea {
   .header-txt p {
     font-size: 15px;
   }
+  .header-txt2 {
+    margin-bottom: 40px;
+    padding: 0 60px;
+  }
+  .header-txt2 h1 {
+    font-size: 35px;
+    line-height: 1;
+  }
+  .header-txt2 p {
+    font-size: 15px;
+  }
+  .header-txt3 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 0 60px;
+  }
+  .header-txt3 h1 {
+    font-size: 35px;
+    line-height: 1;
+  }
+  .header-txt3 p {
+    font-size: 15px;
+  }
   .testimonial1 h2 {
     font-size: 30px;
   }
@@ -643,8 +850,9 @@ textarea {
     font-size: 14px;
   }
   .testimonial1 img {
-    width: 320px;
-    height: 320px;
+    margin-top: -80px;
+    width: 300px;
+    height: 300px;
   }
   .grid h3 {
     font-size: 24px;
@@ -670,6 +878,20 @@ textarea {
   .about {
     max-width: 300px;
   }
+  .imagencorrect {
+    margin-left: -20px;
+  }
+  .offcanvas img {
+    height: 60px;
+    width: 250px;
+  }
+  .contact1 a {
+    font-size: 24px;
+  }
+  .testimonial2 img {
+    width: 90%;
+    height: 300px;
+  }
 }
 @media (max-width: 380px) {
   .header-txt {
@@ -677,14 +899,13 @@ textarea {
     padding: 0 40px;
   }
   .header-txt h1 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1;
   }
   .header-txt p {
     font-size: 14px;
   }
   .testimonial1 img {
-    width: 280px;
     height: 280px;
   }
   .grid h3 {
@@ -702,6 +923,9 @@ textarea {
   .servi {
     width: 100px;
     height: 100px;
+  }
+  .testimonial2 img {
+    height: 280px;
   }
 }
 
