@@ -1017,6 +1017,15 @@ h4 {
   .contactanos {
     padding: 10px;
   }
+  .contact1 h2 {
+    font-size: 24px;
+  }
+  .contact1 p {
+    font-size: 16px;
+  }
+  .contact1 a {
+    font-size: 16px;
+  }
 }
 @media (max-width: 380px) {
   .header-txt {
