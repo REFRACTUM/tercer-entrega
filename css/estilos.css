@@ -446,7 +446,7 @@ h4 {
 .contactanos {
   position: relative;
   width: 100%;
-  padding: 40px 100px;
+  padding: 20px 40px;
   align-items: center;
 }
 
@@ -811,8 +811,8 @@ h4 {
     margin-bottom: 20px;
   }
   .contactanos {
-    width: 100%;
-    margin: auto;
+    width: 90%;
+    margin-bottom: 10px;
   }
   .box1 {
     grid-template-columns: 1fr;
@@ -1025,6 +1025,9 @@ h4 {
   }
   .contact1 a {
     font-size: 16px;
+  }
+  .contacto1 h3 {
+    font-size: 18px;
   }
 }
 @media (max-width: 380px) {
