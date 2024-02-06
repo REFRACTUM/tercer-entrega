@@ -336,6 +336,16 @@ footer {
   text-align: center;
 }
 
+.header4 {
+  padding: 0px 0;
+  background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/fondocontacto.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 60vh;
+}
+
 .testimonial {
   padding: 0px 0;
   background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/buenosairesfondo3.png);
@@ -343,7 +353,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 70vh;
+  min-height: 80vh;
 }
 
 .testimonial-content {
@@ -1018,14 +1028,13 @@ h4 {
     height: 300px;
   }
   .contactanos {
-    margin-left: 20px;
+    margin-left: 16px;
     margin-bottom: 20px;
     width: 75%;
     padding: 0px;
   }
   .titulo h2 {
-    text-align: center;
-    margin-left: 40px;
+    margin-left: 50px;
   }
   .map {
     padding: 0;
