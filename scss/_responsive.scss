@@ -1,3 +1,5 @@
+/*RESPONSIVE*/
+
 @media (max-width: 991px) {
   .sidebar {
     background-color: rgba(114, 0, 108, 0.212);
@@ -515,41 +517,41 @@
 
   .testimonial2 img {
     width: 90%;
-    height: 300px;
+    height: 260px;
   }
 
   .contactanos {
-    margin-left: 16px;
-    margin-bottom:  20px;
+    margin-left: 12px;
+    margin-bottom: 20px;
     width: 75%;
     padding: 0px;
   }
 
   .titulo h2 {
-    margin-left: 50px ;
+    margin-left: 50px;
   }
 
   .map {
     padding: 0;
-   }
+  }
 
-   .map iframe {
+  .map iframe {
     width: 100%;
     height: 100%;
-   }
+  }
 
 
-    .contact1 h2 {
-      font-size: 24px;
-    }
+  .contact1 h2 {
+    font-size: 24px;
+  }
 
-    .contact1 p {
-      font-size: 16px;
-    }
+  .contact1 p {
+    font-size: 16px;
+  }
 
-    .contact1 a {
-      font-size: 16px;
-    }
+  .contact1 a {
+    font-size: 16px;
+  }
 
   .contacto1 h3 {
     font-size: 18px;
@@ -601,7 +603,4 @@
     height: 100px;
   }
 
-  .testimonial2 img {
-    height: 280px;
-  }
 }

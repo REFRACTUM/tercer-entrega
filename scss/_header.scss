@@ -1,135 +1,77 @@
+/*MIXIN USADO EN FONDOS*/
+
 @mixin background {
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 70vh;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 70vh;
 }
 
+
+/*MENU, CONTENIDO DE MENU Y PARTE DEL HEADER*/
 
 .container {
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-  
-  header {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(49, 49, 49, 0.671)), url(../imagenes/buenosairesfondo1.png.jpeg);
-    @include background;
-
-  }
-  
-  .header-txt {
-    padding: 0 150px;
-    margin: auto;
-    margin-bottom: 100px;
-    margin-top: 200px;
-    max-width: 1200px;
-  
-    h1 {
-      font-size: 60px;
-      line-height: 1;
-      color: $color-blanco;
-      font-family: 'Bebas Neue', sans-serif;
-    }
-  
-    P {
-      font-size: 20px;
-      color: $color-blanco;
-      text-align: left;
-    }
-  }
-  
-  .navbar img {
-    width: 250px;
-  }
-  
-  .offcanvas a {
-    color: $color-violeta;
-  }
-  
-  .btn {
-    border-radius: 100px;
-    border: 4px solid;
-    color: $color-violeta;
-    background-color: #da3dda88;
-  
-    a {
-      color: $color-blanco;
-      text-decoration: none;
-    }
-  }
-  
-  .offcanvas img {
-    height: 80px;
-    width: 350px;
-  }
-
-  .header1 {
-    padding: 0px 0;
-    background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/buenosairesfondo4.png);
-    @include background
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-
-.header2 {
-    padding: 0px 0;
-    background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/buenosairesfondo5.png);
-    @include background
-}
-
-.header-txt2 {
-    padding: 0 150px;
-    margin: auto;
-    margin-bottom: 100px;
-    margin-top: 150px;
-    max-width: 1200px;
-  
-    h1 {
-      font-size: 60px;
-      line-height: 1;
-      color: $color-blanco;
-      font-family: 'Bebas Neue', sans-serif;
-    }
-  
-    P {
-      font-size: 20px;
-      color: $color-blanco;
-      text-align: left;
-    }
-  }
-
-.header3 {
-    padding: 0px 0;
-    background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/fondoservicios.png);
-    @include background
-
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(49, 49, 49, 0.671)), url(../imagenes/buenosairesfondo1.png.jpeg);
+  @include background;
 
 }
 
-.header-txt3 {
-    padding: 0 150px;
-    margin: auto;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    max-width: 1200px;
-  
-    h1 {
-      font-size: 60px;
-      line-height: 1;
-      color: $color-blanco;
-      font-family: 'Bebas Neue', sans-serif;
-    }
-  
-    P {
-      font-size: 20px;
-      color: $color-blanco;
-      text-align: left;
-    }
+.header-txt {
+  padding: 0 150px;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  max-width: 1200px;
+
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+    color: $color-blanco;
+    font-family: 'Bebas Neue', sans-serif;
   }
 
-  
-.header4 {
-    padding: 0px 0;
-    background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/fondocontacto.png);
-    @include background
+  P {
+    font-size: 20px;
+    color: $color-blanco;
+    text-align: left;
+  }
+}
+
+.navbar img {
+  width: 250px;
+}
+
+.offcanvas a {
+  color: $color-violeta;
+}
+
+.btn {
+  border-radius: 100px;
+  border: 4px solid;
+  color: $color-violeta;
+  background-color: #da3dda88;
+
+  a {
+    color: $color-blanco;
+    text-decoration: none;
+  }
+}
+
+.offcanvas img {
+  height: 80px;
+  width: 350px;
+}
+
+
+/*HEADER PAGINA QUIENES SOMOS*/
+.header1 {
+  padding: 0px 0;
+  background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/buenosairesfondo4.png);
+  @include background
 }

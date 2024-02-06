@@ -1,3 +1,5 @@
+/*ANIMACION PROPIEDADES*/
+
 @keyframes cardshow {
     from {
         opacity: 0;
@@ -16,7 +18,7 @@
 
     animation-timeline: --image;
     animation-name: cardshow;
-    
+
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
 }
@@ -27,7 +29,7 @@
 
     animation-timeline: --image;
     animation-name: cardshow;
-    
+
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
 }
@@ -38,7 +40,7 @@
 
     animation-timeline: --image;
     animation-name: cardshow;
-    
+
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
 }

@@ -1,34 +1,62 @@
+/* HEADER PAGINA SERVICIOS */
 
-    .grid {
-      text-align: center;
-      margin-top: 100px;
-      margin-bottom: 100px;
-      background-color: white;
-    
-      h5 {
-        margin-bottom: 20px;
-        color: rgb(247, 0, 255);
-      }
-    
-      h2 {
-        color: black;
-    
-        hr {
-          width: 50px;
-          margin-top: 20px;
-          margin-bottom: 20px;
-          color: rgb(247, 0, 255);
-        }
-      }
+.header3 {
+  padding: 0px 0;
+  background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/fondoservicios.png);
+  @include background
+}
 
-      p {
-        text-align: center;
-      }
+.header-txt3 {
+  padding: 0 150px;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  max-width: 1200px;
+
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+    color: $color-blanco;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  P {
+    font-size: 20px;
+    color: $color-blanco;
+    text-align: left;
+  }
+}
+
+/* PAGINA SERVICIOS Y GRID DE SERVICIOS A OFRECER */
+
+.grid {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+
+  h5 {
+    margin-bottom: 20px;
+    color: rgb(247, 0, 255);
+  }
+
+  h2 {
+    color: black;
+
+    hr {
+      width: 50px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: rgb(247, 0, 255);
     }
-    
-    .servi {
-      width: 150px;
-      height: 150px;
-    }
-       
-  
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.servi {
+  width: 150px;
+  height: 150px;
+}

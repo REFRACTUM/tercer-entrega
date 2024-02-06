@@ -1,20 +1,45 @@
-.about {
-  text-align: center;
-  margin: auto;
-  background-color: $color-blanco;
-  position: relative;
+/* header fondo pagina propiedades*/
+.header2 {
+  padding: 0px 0;
+  background: linear-gradient(rgba(19, 3, 14, 0.8), rgba(3, 3, 3, 0.8)), url(../imagenes/buenosairesfondo5.png);
+  @include background
 }
 
-.about-txt {
+.header-txt2 {
+  padding: 0 150px;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 150px;
+  max-width: 1200px;
 
-  h2 {
-    color: $color-violeta;
-    font-size: 40px;
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+    color: $color-blanco;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  P {
+    font-size: 20px;
+    color: $color-blanco;
+    text-align: left;
   }
 }
 
+/* contenido y cards de las propiedades */
+.about {
+  text-align: center;
+  margin: auto;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.about-txt h3 {
+  font-size: 24px;
+}
+
 hr {
-  color: $color-violeta;
+  color: #747474;
   width: 200px;
   align-items: center;
   border: 1px solid;
@@ -26,37 +51,33 @@ hr {
 }
 
 .primary btn btn-outline-primary {
-  color: $color-violeta;
+  color: #ff70cf;
 }
 
 .card-body {
-  background-color: #d467d85d;
+  background-color: #ff70cf63;
   position: relative;
 }
 
-p {
-
-  img {
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
+p img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
 }
 
 .card {
   margin-bottom: 50px;
   width: 100%;
   overflow: hidden;
-  box-shadow: 0px 1px 10px rgb(0, 0, 0,0.6);
+  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.6);
   cursor: default;
   transition: all 400ms ease;
   border-radius: 10px;
-}
 
-.card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
-  transform: translateY(-3%);
+  &:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+    transform: translateY(-3%);
+  }
 }
 
 .card-text {
