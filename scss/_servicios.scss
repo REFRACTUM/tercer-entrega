@@ -33,21 +33,21 @@
   text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
-  background-color: white;
+  background-color: $color-blanco;
 
   h5 {
     margin-bottom: 20px;
-    color: rgb(247, 0, 255);
+    color: $color-shadow;
   }
 
   h2 {
-    color: black;
+    color: $color-negro;
 
     hr {
       width: 50px;
       margin-top: 20px;
       margin-bottom: 20px;
-      color: rgb(247, 0, 255);
+      color: $color-shadow;
     }
   }
 

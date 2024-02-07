@@ -26,7 +26,7 @@
   }
 
   span {
-    color: white;
+    color: $color-blanco;
   }
 }
 
@@ -34,7 +34,7 @@
 .about {
   text-align: center;
   margin: auto;
-  background-color: #ffffff;
+  background-color: $color-blanco;
   position: relative;
 }
 
@@ -43,7 +43,7 @@
 }
 
 hr {
-  color: #747474;
+  color: $color-gris;
   width: 200px;
   align-items: center;
   border: 1px solid;
@@ -55,7 +55,7 @@ hr {
 }
 
 .primary btn btn-outline-primary {
-  color: #ff67cc;
+  color: $color-violeta;
 }
 
 .card-body {
@@ -66,7 +66,7 @@ hr {
 p img {
   width: 30px;
   height: 30px;
-  margin-right:10px;
+  margin-right: 10px;
   margin-left: 10px;
 }
 
@@ -99,6 +99,5 @@ p img {
 }
 
 .card-footer span {
-  color: white;
+  color: $color-blanco;
 }
-
