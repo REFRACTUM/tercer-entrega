@@ -151,6 +151,9 @@ header {
   color: #ffffff;
   text-align: left;
 }
+.header-txt2 span {
+  color: white;
+}
 
 /* contenido y cards de las propiedades */
 .about {
@@ -177,7 +180,7 @@ hr {
 }
 
 .primary btn btn-outline-primary {
-  color: #ff70cf;
+  color: #ff67cc;
 }
 
 .card-body {
@@ -188,7 +191,8 @@ hr {
 p img {
   width: 30px;
   height: 30px;
-  margin-right: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .card {
@@ -209,11 +213,16 @@ p img {
   padding: 10px;
   text-align: center;
   text-transform: bold;
+  font-size: 16px;
 }
 
 .card-img {
   width: 40px;
   height: 400px;
+}
+
+.card-footer span {
+  color: white;
 }
 
 /* HEADER PAGINA SERVICIOS */
@@ -421,7 +430,7 @@ h4 {
 }
 
 .contact1 span {
-  color: #ff70cf;
+  color: #fdfdfd;
 }
 .contact1 h2 {
   color: #fff;
@@ -831,6 +840,9 @@ h4 {
   }
   .contacto1 {
     padding: 20px;
+  }
+  .card-text {
+    font-size: 12px;
   }
 }
 @media (max-width: 767px) {
