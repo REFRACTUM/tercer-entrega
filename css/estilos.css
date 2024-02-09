@@ -1070,10 +1070,11 @@ h4 {
     height: 100px;
   }
   .contactanos {
-    margin-left: -35px;
+    width: 80%;
+    margin-left: -40px;
   }
   .contactanos .titulo h2 {
-    margin-left: 60px;
+    margin-left: 150px;
   }
 }
 
